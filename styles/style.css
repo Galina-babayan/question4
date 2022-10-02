@@ -1,0 +1,19 @@
+.block {
+  grid-template-columns: 100px 30% 1fr;
+  grid-template-rows: 200px 100px;
+  display: grid;
+  background-color: rgb(244, 239, 238);
+  gap: 20px;
+}
+
+.block_item {
+  background-color: rgb(65, 42, 165);
+  border: 3px solid black;
+  box-shadow: 0 0 10px black;
+  background: linear-gradient(
+    to right,
+    rgba(68, 68, 207, 0.945) 0%,
+
+    rgba(91, 230, 245, 0.877) 100%
+  );
+}
